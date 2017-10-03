@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * 默认为移动端（320px~640px），
+ * 对于640~960px，960px-1280px，1280px~1920px均有适配
+ */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /*font-size: 16px;*/
+    font-family: 黑体, 微软雅黑, sans-serif;
+}
+
+.hero-body {
+    margin-bottom: -8rem;
+}
+
+.hero-bg {
+    width: 100%;
+}
+
+.hero-eeyes-logo {
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+    width: 6rem;
+}
+
+.hero-title {
+    position: absolute;
+    top: 14rem;
+    left: 2rem;
+}
+
+.hero-title-guest {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10rem;
+}
+
+.hero-title-staff {
+    position: absolute;
+    top: .5rem;
+    left: 10rem;
+    width: 9rem;
+}
+
+.hero-title-eeyesers {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 22rem;
+}
+
+.department {
+    width: 100%;
+    overflow: hidden;
+}
+
+.department-title {
+    text-align: center;
+    font-weight: normal;
+    padding: .5em 0;
+}
+
+.department-members {
+    padding-right: 9.3rem;
+    font-size: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.member {
+    position: relative;
+    display: inline-block;
+    width: 9.3rem;
+    height: 19rem;
+    font-size: 1rem;
+    -webkit-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background: linear-gradient(#008aff 0, #63c0f5 75%, #fff 100%);
+}
+
+.member:hover {
+    -webkit-transform: skewX(-30deg) scale(1.1);
+    -ms-transform: skewX(-30deg) scale(1.1);
+    transform: skewX(-30deg) scale(1.1);
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 30;
+}
+
+.member-avatar,
+.member-grade,
+.member-name,
+.member-company,
+.member-position {
+    -webkit-transform: skewX(30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(30deg);
+}
+
+.member-avatar-img {
+    width: 100%;
+    transform: scale(1.5);
+    transform-origin: top;
+}
+
+.member-profile {
+    position: relative;
+    background-color: rgba(0, 138, 255, .5);
+}
+
+.member-name {
+    height: 3.4em;
+    line-height: 1.7;
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 2em;
+}
+
+.member-info {
+    position: relative;
+    background-color: #008aff;
+}
+
+.member-company, .member-position {
+    font-size: .7em;
+    line-height: 1.2;
+    height: 3.6em;
+    color: #fff;
+    font-weight: bold;
+    padding: .5em 0;
+}

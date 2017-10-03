@@ -1,0 +1,304 @@
+<!-- ==================================================
+<| html
+==================================================  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>e曈网十五周年站庆</title>
+    <link rel="stylesheet" href="lib/swiper.min.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="sprite.css">
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <!--设置QQ分享的标题图片等-->
+    <meta name="description" itemprop="description" content="一路有你，相伴同行" />
+    <meta itemprop="name" content="e曈网十五周年站庆" />
+    <meta itemprop="image" content="imgs/e.jpg" />
+</head>
+<body>
+    <div style="display: none">
+        <img src="imgs/e.png" width="300" height="300">
+    </div>
+    <div class="onloading">
+        <i class="icon icon-loading"></i>
+    </div>
+    <div class="swiper-container">
+        <audio autoplay loop id="mp3">
+            <source src="media/bgm.mp3" type="audio/mpeg">
+        </audio>
+        <img class="music" src="imgs/music.png" alt="music">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-no-swiping">
+                <!-- ==================================================
+                <| title
+                ==================================================  -->
+                <div class="m-title">
+                    <p class="title">忆瞳·一同</p>
+                    <p class="e"><img src="./imgs/e.png"></p>
+                    <div class="pageBottom">
+                        <div class="fingerWra">
+                            <div class="intro">
+                                长按<span class="mark">此处</span>留下<br>你的印记
+                            </div>
+                            <img class="fingerprint" src="imgs/zw.png">
+                        </div>
+                        <div class="logo"><img src="imgs/logo.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-no-swiping" id="word">
+                <div class="m-words">
+                  <div class="wordWra icon-word">
+                    <div class="first"> <i class="icon-first icon"></i> </div>
+                    <div class="second"> <i class="icon-second icon"></i> </div>
+                    <div class="third"> <i class="icon-third icon"></i> </div>
+                    <i class="icon icon-finger stage1"></i>
+                  </div>
+                  <div class="sentence">
+                    <canvas id="canvas" height="80">
+                      溽暑步月，往昔满心头，十五载相庆相救
+                    </canvas>
+                  </div>
+                  <div class="imgWra">
+                    <img class="single" src="imgs/single.png" alt="single">
+                    <img class="climber" src="imgs/climber.png" alt="climber">
+                    <img class="runner" src="imgs/runner.png" alt="runner">
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide" id="hist">
+                <!-- ==================================================
+                <| history
+                ==================================================  -->
+                <div class="m-history">
+                    <!-- page-top -->
+                    <div class="page-top">
+                        <div class="title">TIMELINE</div>
+                        <div class="title-dialog">
+                            <div class="arrow"></div>
+                            <div class="box">社团发展历史</div>
+                        </div>
+                    </div>
+                    <!-- timeline -->
+                    <div class="timeline">
+                        <div class="dialog d-1">
+                            <p class="time">2002.1.7</p>
+                            <p><span>寒风凛冽</span>的下午</p>
+                            <p>小小的<span>平板车</span></p>
+                            <p>承载了e瞳的</p>
+                            <p><span>未来</span></p>
+                        </div>
+                        <div class="dialog d-2">
+                            <p class="time">2003.5.23</p>
+                            <p>第一间<span>小房子</span> 第一台<span>电脑</span></p>
+                            <p>宣告了e瞳开启了一段<span>新的篇章</span></p>
+                            <p>e瞳人有了自己的<span>家</span></p>
+                        </div>
+                        <div class="dialog d-3">
+                            <p class="time">2003.9.16</p>
+                            <p>这一天起 我们<span>正式</span>地建立了e瞳网</p>
+                            <p>我们在法律的<span>保护</span>下</p>
+                            <p>我们是<span>骄傲</span>的e瞳人</p>
+                        </div>
+                        <div class="dialog d-4">
+                            <p class="time">2006.12.7</p>
+                            <p>没有永远的晴空万里</p>
+                            <p>偶尔也会有乌云密布</p>
+                            <p>也会有<span>黑夜</span>降临</p>
+                            <p>e瞳网被迫<span>关站</span></p>
+                            <p>我们陷入了<span>漫漫长夜</span></p>
+                        </div>
+                        <div class="dialog d-5">
+                            <p class="time">2004.4.16-4.17</p>
+                            <p>从哪里<span>跌倒</span></p>
+                            <p>从哪里<span>站起</span></p>
+                            <p>校区没有成为<span>阻碍</span></p>
+                            <p>竞争没有带来<span>失败</span></p>
+                            <p>我们把校运会</p>
+                            <p>变成了e瞳的<span>主场</span></p>
+                        </div>
+                        <div class="dialog d-6">
+                            <p class="time">2007.4.10 20:00</p>
+                            <p>一蹶不振从来不是e瞳人的<span>个性</span></p>
+                            <p>我们靠自己的<span>坚持</span>和努力</p>
+                            <p>终于<span>冲破</span>黑暗</p>
+                            <p>e瞳网重新迎来<span>黎明</span></p>
+                        </div>
+                        <div class="dialog d-7">
+                            <p class="time">2012.9.16</p>
+                            <p>用<span>十年之约</span>换一个未来</p>
+                            <p>e瞳网向着一个又一个的十年</p>
+                            <p>不断<span>开拓</span>着</p>
+                        </div>
+                        <div class="dialog d-8">
+                            <p class="time">2016.4.9</p>
+                            <p>e瞳陪伴交大</p>
+                            <p>度过<span>百廿</span>生日</p>
+                            <p>为交大拍摄</p>
+                            <p>校庆文艺晚会</p>
+                            <p>作为生日礼物</p>
+                            <p>献给<span>最亲爱</span>的你</p>
+                        </div>
+                        <div class="dialog d-9">
+                            <p class="time">2015.6</p>
+                            <p>新的<span>时代</span> 新的e瞳</p>
+                            <p>再艰难也要<span>坚持</span></p>
+                            <p>在企划部的策划下</p>
+                            <p>e瞳网开始网站重组</p>
+                            <p>为e瞳迎来<span>新生</span></p>
+                        </div>
+                        <div class="dialog d-10">
+                            <p class="time">2017.8</p>
+                            <p>技术部门<span>架构</span>改变</p>
+                            <p>网站开发流程<span>规范化</span></p>
+                            <p>发展模式<span>革新</span></p>
+                            <p>趋向扁平化和<span>精英化</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <!-- ==================================================
+                <| product
+                ==================================================  -->
+                <div class="m-product">
+                    <!-- carousel -->
+                    <div class="carousel">
+                        <div class="yearpro" id="pro2017">
+                            <i class="icon icon-exuetang three_1"></i>
+                            <i class="icon icon-developer three_2"></i>
+                            <i class="icon icon-gitlab three_3"></i>
+                            <i class="icon icon-library three_4"></i>
+                        </div>
+                        <div class="yearpro" id="pro2016">
+                            <i class="icon icon-edown three_1"></i>
+                            <i class="icon icon-eux three_2"></i>
+                            <i class="icon icon-qihang three_3"></i>
+                        </div>
+                        <div class="yearpro" id="pro2015">
+                            <i class="icon icon-eeyesvideo"></i>
+                        </div>
+                        <div class="yearpro" id="pro2013">
+                            <i class="icon icon-yanzhi three_1"></i>
+                            <i class="icon icon-market three_2"></i>
+                            <i class="icon icon-knowweekly three_3"></i>
+                            <i class="icon icon-screen three_4"></i>
+                        </div>
+                        <div class="yearpro" id="pro2012">
+                            <i class="icon icon-yueku three_1"></i>
+                            <i class="icon icon-news three_2"></i>
+                            <i class="icon icon-eyunpan three_3"></i>
+                            <i class="icon icon-ticket three_4"></i>
+                        </div>
+                        <div class="yearpro" id="pro2011">
+                            <i class="icon icon-lovevideo"></i>
+                        </div>
+                        <div class="yearpro" id="pro2006">
+                            <i class="icon icon-emonthly"></i>
+                        </div>
+                        <div class="yearpro" id="pro2005">
+                            <i class="icon icon-wordstreet"></i>
+                        </div>
+                        <div class="yearpro" id="pro2002">
+                            <i class="icon icon-eicar"></i>
+                        </div>
+                    </div>
+                    <!-- yearlist -->
+                    <div class="yearlist">
+                        <div class="menu">
+                            <div class="cursor"></div>
+                            <div class="options">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="m-money">
+                    <div id="top_image">
+                        <a href="https://www.eeyes.net/"><img src="./imgs/logo.png" id="elogo"></a>
+                    </div>
+                    <h1>十五周年，站庆筹款</h1>
+                    <div class="intro-word">
+                        <p class="special">一个团队，数千名员工，十五年岁月</p>
+                        <p class="special">数十个产品，无数个故事</p>
+                        <p>我们诚挚的向您发出邀请，如果您力所能及</p>
+                        <p>原意为e瞳建设贡献资金力量，这份力量会帮助</p>
+                        <p>e瞳未来建设，也希望这份力量能为您带来好运</p>
+                    </div>
+                    <p>——————————<span style="margin: 0 2.5em;">本次筹款将用于</span>——————————</p>
+                    <div class="uses">
+                        <table>
+                            <tbody>
+                                <tr class="progress">
+                                    <td>
+                                        <div class="use-back"><img src="./imgs/office.png"></div>
+                                    </td>
+                                    <td>
+                                        <h2>改善工作条件</h2>
+                                        <p>为办公室购置空调等设备，打造更好的办公环境</p>
+                                    </td>
+                                </tr>
+                                <tr class="progress">
+                                    <td>
+                                        <div class="use-back"><img src="./imgs/photo.png"></div>
+                                    </td>
+                                    <td>
+                                        <h2>升级影视设备</h2>
+                                        <p>购入更专业的影视设备，打造更极致的视觉体验</p>
+                                    </td>
+                                </tr>
+                                <tr class="progress">
+                                    <td>
+                                        <div class="use-back"><img src="./imgs/server.png"></div>
+                                    </td>
+                                    <td>
+                                        <h2>缓解服务器压力</h2>
+                                        <p>购置服务器，完善硬件基础设施，优化网站用户体验</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <a onclick="showQR()">参与筹款</a>
+                    <div id="QRcode">
+                        <img src="./imgs/QRcode.png" alt="收款二维码" id="QR">
+                        <img src="./imgs/close.png" alt="关闭按钮" id="hideQR">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" id="sign">
+                <div class="sign">
+                    <div class="sign-img-wrapper">
+                        <img src="./imgs/sign.png" id="signwall">
+                    </div>
+                    <div id="danmaku_wrapper" style="width: 100%; height: 300px;"></div>
+                    <a id="signBtn">签名</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="tosign" onload="InitThis()">
+                    <form action="./api/index.php" name="upload">
+                        <div class="canvas">
+                            <canvas id="myCanvas"></canvas>
+                        </div>
+                    </form>
+                    <a onclick="UploadPic()">签名</a>
+                    <a onclick="clearBoard()">清空画板</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/swiper.min.js"></script>
+    <script src="lib/Tween.js"></script>
+    <script src="lib/flexible.debug.js"></script>
+    <script src="lib/qzshare.js"></script> 
+    <script src="lib/Danmaku.js"></script>
+    <script src="all.js"></script>
+</body>
+
+</html>
